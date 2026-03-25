@@ -43,7 +43,16 @@ git clone <your-repo-link>
 cd <your-folder>
 ```
 
-2. Install dependencies:
+2. Setup virtual environment and activate:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+---
+
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
